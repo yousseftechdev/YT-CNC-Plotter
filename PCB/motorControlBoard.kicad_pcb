@@ -73,9 +73,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../PCB Gerber Files/")
 		)
 	)
 	(net 0 "")
@@ -1495,6 +1495,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3rd Party 3D Models/arduino nano.step"
+			(offset
+				(xyz 0 0 5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
@@ -1885,7 +1896,7 @@
 		(property "Reference" "J1"
 			(at -8.45 5.75 90)
 			(layer "F.SilkS")
-			(uuid "5188c33f-26fa-4fcb-b16d-ecda4e6bdef3")
+			(uuid "75001c9a-4063-4066-b5a8-28d1bf58c8da")
 			(effects
 				(font
 					(size 1 1)
@@ -1896,7 +1907,7 @@
 		(property "Value" "Barrel_Jack"
 			(at -6.2 -5.5 90)
 			(layer "F.Fab")
-			(uuid "87a63c4c-411e-4b5f-a144-3a7c64e15284")
+			(uuid "1d0c8565-4a14-4aa3-bdbe-c71d3bcea752")
 			(effects
 				(font
 					(size 1 1)
@@ -1909,7 +1920,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a53452f-8893-4f90-a4d6-544963c367fe")
+			(uuid "8ef6e5c1-aef8-4a63-817f-2f93e133c675")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1933,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "943bfb6c-54e2-42c5-b678-48b773094106")
+			(uuid "7b78af00-7e7a-42e6-8d83-aa0b1ad927e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2522,7 @@
 		(property "Reference" "C4"
 			(at 1.25 -4.4 0)
 			(layer "F.SilkS")
-			(uuid "a86381c8-96b7-4916-84f8-e5467ba92cd1")
+			(uuid "65136fce-4077-4414-a000-9553b12fd615")
 			(effects
 				(font
 					(size 1 1)
@@ -2522,7 +2533,7 @@
 		(property "Value" "100 uF"
 			(at 1.25 4.4 0)
 			(layer "F.Fab")
-			(uuid "dce13bd9-cce5-403b-a339-bc042546477e")
+			(uuid "494decf6-7468-445a-9fd1-23df9ac6b624")
 			(effects
 				(font
 					(size 1 1)
@@ -2535,7 +2546,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e60b5a29-bfcf-4c4a-8ca9-84868aa1cefb")
+			(uuid "180e6c81-f3f6-424f-8408-8ed97c48f030")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2559,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f685e99-cc3b-4da4-ae3f-0c4452fc3b81")
+			(uuid "fdb411a0-43e8-4cc0-8a9b-5b7bfce07efe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,16 +6089,133 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 64 35)
-		(end 126.5 114.5)
+	(gr_line
+		(start 67 35)
+		(end 123.5 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "00466f83-7bba-40be-be1c-e70fdec92a90")
+	)
+	(gr_circle
+		(center 91 39)
+		(end 93 40.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "2b131a4d-c76f-4134-85e7-969d931c053a")
+		(uuid "291d6b55-f9cf-46af-8b9e-6b28afaf1ed4")
+	)
+	(gr_arc
+		(start 126.5 111.5)
+		(mid 125.62132 113.62132)
+		(end 123.5 114.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "476001e1-86c9-4751-b56b-dbe3d98876a2")
+	)
+	(gr_line
+		(start 126.5 38)
+		(end 126.5 111.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "74061c75-ae9d-4ea7-b307-91e916daa5e9")
+	)
+	(gr_arc
+		(start 123.5 35)
+		(mid 125.62132 35.87868)
+		(end 126.5 38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7871ad72-df93-43b0-a247-c19a898c14b8")
+	)
+	(gr_circle
+		(center 122 39)
+		(end 124 40.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8304d404-5361-4027-9132-bcdca3647d71")
+	)
+	(gr_arc
+		(start 64 38)
+		(mid 64.87868 35.87868)
+		(end 67 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "932e230f-49ce-4390-b4ad-366569173e27")
+	)
+	(gr_line
+		(start 64 111.5)
+		(end 64 38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b4d88f6a-4ee5-49df-8633-fc1829c35ec3")
+	)
+	(gr_circle
+		(center 110 110.5)
+		(end 112 112)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "be315ea9-b420-469e-9632-36a960b0fe80")
+	)
+	(gr_line
+		(start 123.5 114.5)
+		(end 67 114.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc7474d2-63ba-4ff2-938e-c2bf7e8b9e4d")
+	)
+	(gr_circle
+		(center 80.5 110.5)
+		(end 82.5 112)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d7525c9f-d8e7-43a8-8956-ba389a60035d")
+	)
+	(gr_arc
+		(start 67 114.5)
+		(mid 64.87868 113.62132)
+		(end 64 111.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f8c50afd-8c23-4860-a087-f0d417f00301")
 	)
 	(segment
 		(start 70.5 47.05205)
