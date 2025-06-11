@@ -149,3 +149,5 @@ summary of what I did today:
 - Review the frame models to see if I can improve anything even slightly
 
 Hoping everything works correctly when printed
+
+Note: If you want to print the STL files please scale them down, Fusion messed up when saving.
