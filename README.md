@@ -20,3 +20,5 @@ Electronics:
 
 ## What have I learned?
 I have learned so much about CAD from making this project, this has been such a great learning experience, but the most important thing I've learned is not to use Fusion 360 ever again.
+
+Note: If you want to print the STL files please scale them down, Fusion messed up when saving.
