@@ -6,7 +6,7 @@ created_at: "2025-06-09"
 ---
 
 Total time spent: 19 hours and 49 minutes
-Total cost of parts (as of the time of writing this line and without 3D printing): 1,456.75 EGP or 29.37 USD
+Total cost of parts (without 3D printing): 1,303.75 EGP or 26.33 USD
 Approx. 3D printing cost: 315 EGP or 6.35 USD
 
 # [2025-06-09] [Time spent: 6 hours] Day 1: Brainstorming, and first steps
@@ -118,7 +118,7 @@ After the parts arrive and the frame gets printed I'll get the chance to write t
 # [2025-06-11] [Time spent: 4 Hours and 24 minutes] Day 3: Finalizing
 This is probably the last day I'll be working on this, today is just gonna be cleaning up the journal and adding any missing info, checking on the PCB to see if I did something wrong or need to add anything, it is now 8:36 AM, getting started.
 
-Welp after reviewing the PCB and getting the help of HC slack member StrawberryPuding, I realized I only need two ULN2003 chip not three, so I spent the past 2 hours (it's 10:30 rn) modifying the schematic and rerouting the entire PCB, I was able to use two ULNs instead of three and made the board smaller and more compact, I was able to shave off 109 EGP or 2.2 USD from my BOM, here are the pics of the new PCB:
+Welp after reviewing the PCB and getting the help of HC slack member StrawberryPuding, I realized I only need two ULN2003 chip not three, so I spent the past 2 hours (it's 10:30 rn) modifying the schematic and rerouting the entire PCB, I was able to use two ULNs instead of three and made the board smaller and more compact, I was able to shave off 150.43 EGP or 3.04 USD from my BOM, here are the pics of the new PCB:
 
 Schematic:
 ![schematic2](imgs/schematic2.png)
