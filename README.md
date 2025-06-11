@@ -1,6 +1,14 @@
 # YT CNC Plotter
 This is a hobby project, it's basically a Mini CNC Plotter made using small 5v stepper motors and an Arduino Nano, I'll use it to draw circuits on copper plates to essentially make DIY single layer PCBs.
 
+## Showcase
+![img1](imgs/image.png)
+![img2](imgs/image-1.png)
+![img3](imgs/image-2.png)
+![img4](imgs/PCB-2D2.png)
+![img5](imgs/PCB-3D3.png)
+![img6](imgs/newcase.png)
+
 ## How does it work?
 It uses gear tracks the are moved by the stepper motors, two stepper motors are used to control the X and Y position of the pen and the third motor is used to control the Z position aka the up and down movement of the pen, a script will be used to translate normal G-Code that's used in big CNC machines into something the Arduino can understand.
 
