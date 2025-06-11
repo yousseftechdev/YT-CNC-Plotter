@@ -6,7 +6,7 @@ created_at: "2025-06-09"
 ---
 
 Total time spent: 19 hours and 49 minutes
-Total cost of parts (without 3D printing): 1,303.75 EGP or 26.33 USD
+Total cost of parts (without 3D printing): 1,307.75 EGP or 26.33 USD
 Approx. 3D printing cost: 315 EGP or 6.35 USD
 
 # [2025-06-09] [Time spent: 6 hours] Day 1: Brainstorming, and first steps
