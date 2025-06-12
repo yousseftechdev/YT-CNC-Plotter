@@ -5,7 +5,7 @@ description: "A mini CNC Plotter to trace PCB designs on copper plates"
 created_at: "2025-06-09"
 ---
 
-Total time spent: 19 hours and 49 minutes
+Total time spent: 21 hours and 49 minutes
 Total cost of parts (without 3D printing): 1,307.75 EGP or 26.33 USD
 Approx. 3D printing cost: 315 EGP or 6.35 USD
 
@@ -32,7 +32,7 @@ Finished PCB design, FINALLY. The pcb took HOURS to finish, made me wish I had g
 
 The PCB has the 3 motor drivers connected to the GPIO on the Arduino, and there are some capacitors to minimize flyback voltage from the motors, I added a barrel jack to power the Arduino and the motors, they are wired in parallel though and I'm not sure if that's dangerous.
 
-And also I will not be soldering the Arduino onto the board because that would be a waste of a perfectly good dev board so I'll use female pin headers in its place during assebly
+And also I will not be soldering the Arduino onto the board because that would be a waste of a perfectly good dev board so I'll use female pin sockets in its place during assebly
 
 PCB Images:<br>
 Schematic:<br>
@@ -151,3 +151,14 @@ summary of what I did today:
 Hoping everything works correctly when printed
 
 Note: If you want to print the STL files please scale them down, Fusion messed up when saving.
+
+# [2025-06-12] [Time spent: 2 hours] Day 4: Fixing a stupid mistake
+I know, I know, I said yesterday would be the last time I work on this, but as I was getting into bed yesterday, I realized something... I DIDN'T MAKE OPENINGS IN THE PCB CASE FOR THE CABLES.
+
+Opening Fusion360 for (hopefully) the last time.
+
+PC is already overheating from this app, idk if my PC is too weak or Fusion is just a menace
+
+Tbh idk how I'll make the opening for the USB port on the Arduino since I'm gonna be using female pin sockets to place the Arduino on the board
+
+Just cut out a big rectangle from the side, done, yippee
